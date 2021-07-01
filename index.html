@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <title>Bibliotheca et Hortus</title>
+    <meta name="og:title" content="Bibliotheca et Hortus" />
+    <meta name="og:description" content="Free books searcher" />
+    <link rel="icon" href="https://s1.significados.com/foto/shutterstock-273030704_sm.jpg">
+  </head>
+  <body>
+    <header class="hero content has-text-centered" style="padding: 15px; display: flex;">
+      <h1 class="title"><a href="/">Bibliotheca et Hortus</a></h1>
+      <p class="subtitle">A library for intelectuals</p>
+      <div class="control">
+      <form>
+        <div class="field has-addons" style="justify-content: center;">
+          <div class="control">
+            <input class="input" type="text" placeholder="Search a book" name="keyword" required>
+          </div>
+          <div class="control">
+            <button type="submit" class="button is-info">
+              Search
+            </button>
+          </div>
+        </div>
+      </form>
+    </header>
+    <main
+      style="
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        justify-items: center;
+        align-items: center;
+        padding: 10px;
+      "
+    ></main>
+    <footer style="margin: 15px" class="content has-text-centered">
+      <p>
+        <strong>Bibliotheca et Hortus</strong> by
+        <a href="https://scidroid.me" target="_BLANK" rel="noreferrer noopener"
+          >SciDroid</a
+        >. The source code is licensed
+        <a
+          href="http://opensource.org/licenses/mit-license.php"
+          target="_BLANK"
+          rel="noreferrer noopener"
+          >MIT</a
+        >. The website content is licensed
+        <a
+          href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+          target="_BLANK"
+          rel="noreferrer noopener"
+          >CC BY NC SA 4.0</a
+        >.
+      </p>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
